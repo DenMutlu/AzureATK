@@ -30,16 +30,16 @@ Integrated into the Microsoft portal, this tool provides a measurement of an org
 ### Configuration Analyzer in Microsoft 365 Defender
 A tool within Microsoft 365 Defender that analyzes security configurations and provides recommendations for improving security settings.
 
-### Ping Castle
+### [Ping Castle](https://github.com/vletoux/pingcastle)
 An advanced Active Directory security assessment tool that evaluates the security posture of your Active Directory environment.
 
 ### [ScubaGear](https://github.com/cisagov/ScubaGear) by CISA
 A tool provided by the Cybersecurity and Infrastructure Security Agency (CISA) for auditing security configurations.
 
-### ORCA (Office 365 Recommended Configuration Analyzer)
+### [ORCA](https://github.com/cammurray/orca) (Office 365 Recommended Configuration Analyzer)
 A PowerShell module that analyzes Exchange Online Protection (EOP) rules, attachment and link management policies, and anti-phishing policies. It focuses on Microsoft Defender for Office 365.
 
-### Monkey365
+### [Monkey365](https://github.com/silverhack/monkey365)
 An open-source tool for auditing multiple services within the Microsoft 365 ecosystem, including OneDrive, Exchange Online, SharePoint, Teams, Security & Compliance, and Microsoft Entra ID.
 
 ## Step 3: Presentation of Results
