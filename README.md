@@ -33,7 +33,7 @@ A tool within Microsoft 365 Defender that analyzes security configurations and p
 ### Ping Castle
 An advanced Active Directory security assessment tool that evaluates the security posture of your Active Directory environment.
 
-### ScubaGear by CISA
+### [ScubaGear](https://github.com/cisagov/ScubaGear) by CISA
 A tool provided by the Cybersecurity and Infrastructure Security Agency (CISA) for auditing security configurations.
 
 ### ORCA (Office 365 Recommended Configuration Analyzer)
