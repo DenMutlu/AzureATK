@@ -19,7 +19,6 @@ Begin by creating an Excel file to document the audit process. The file should c
 - **Name of Audit**: The name or identifier of the audit.
 - **Comment**: Additional comments or notes.
 
-This structure ensures a comprehensive and organized approach to documenting the audit.
 
 ## Step 2: Tools Used
 
