@@ -2,6 +2,7 @@
 Azure Audit Toolkit is a process using Tools, process, docs to audit and review security configuration on Azure Tenant
 
 **Commmit For the Swiss Microsoft Security Summit coming the 29.05.2025**
+--->[SMSS_DEMO](https://github.com/DenMutlu/AzureATK/tree/main/SMSS)
 
 # Azure Security Configuration and Baseline Audit Methodology
 
