@@ -1,4 +1,5 @@
 # Demo 01 — Reconnaissance of **mutlulabs**
+## !! You need to adapt the credentials to your context !!
 
 > **Goal:** Gather fast intel on the *mutlulabs* tenant (Or your lab tenant).  
 > **Tools:** AADInternals · o365creeper · MicroBurst  
