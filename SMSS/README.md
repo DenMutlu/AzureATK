@@ -3,14 +3,14 @@
 > **Purpose**  
 > Hands-on lab for reproducing common Azure / Entra ID attack paths *and* testing your detections with Microsoft Defender XDR & Sentinel.  
 > **Audience:** Red-, Blue-, and budding Purple-teamers.  
-> **Status:** v1 – aligned with SMSS “Common Azure Attacks and Detection Strategies” talk (May/June 2025). KQL Detection & Defense strategies coming for August 2025
+> **Status:** v1 : aligned with SMSS “Common Azure Attacks and Detection Strategies” talk (May/June 2025). KQL Detection & Defense strategies coming for August 2025
 
 ---
 
 ## 1  Why this repo exists
-1. **Demystify modern Azure attacks** — show how attackers chain APIs, tokens and misconfiguration.  
-2. **Provide reproducible tooling** — all scripts are public/open-source, pinned to known-good commits.  
-3. **Bridge to detection** — The final foal is to every attack step is paired with at least one Sentinel / Defender XDR hint.
+1. **Demystify modern Azure attacks** : show how attackers chain APIs, tokens and misconfiguration.  
+2. **Provide reproducible tooling** : all scripts are public/open-source, pinned to known-good commits.  
+3. **Bridge to detection** : The final foal is to every attack step is paired with at least one Sentinel / Defender XDR hint.
 
 > ⚠️ **Lab-only**  
 > Run everything inside an isolated tenant / subscription you are authorised to break.  
@@ -82,9 +82,12 @@
 
 ## 6  Swiss Microsoft Security Summit Demos
 
-Demo 1 : 
-Demo 2 :
-Demo 3 :
+Below are direct links to the scenario walk‑throughs created for the Swiss Microsoft Security Summit (SMSS) course:
+
+- **[SMSS Demo 1 – Reconnaissance](SMSS_Demo1.md)**
+- **[SMSS Demo 2 – Authenticated Enumeration](SMSS_Demo2.md)**
+- **[SMSS Demo 3 – Token theft from browser](SMSS_Demo3.md)**
+
 
 
 ---
