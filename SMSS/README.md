@@ -55,15 +55,15 @@
 
 | Step | Phase | What you’ll do | Slide ref. |
 |------|-------|----------------|-----------|
-| 0 | Prep | Deploy the template that spins up the lab resources & Sentinel workspace. | 70-75 |
-| 1 | Recon | `Invoke-AADIntReconAsOutsider` to enumerate domains & Tenant ID. | 77 |
-| 2 | Password Spray | `MSOLSpray -UserList users.txt -Password Winter2025!` via FireProx rotating IPs. | 78 |
-| 3 | Consent Phish | Evilginx 2 config → capture OAuth code & exchange for **Access Token**. | 79 |
-| 4 | Enumeration | `roadrecon` dump → import into Neo4j, visualise in BloodHound. | 80-81 |
-| 5 | Priv-Esc | Abuse Automation Account Run-As to mint new Service Principal secret. | 82 |
-| 6 | Key Vault loot | `az keyvault secret download` using stolen SP creds. | 82 |
-| 7 | Persistence | `ConvertTo-AADIntBackdoor -AppId …` to add hidden credential. | 83 |
-| 8 | Detection | Run Cloud Katana playbook **KV.SecretGet** and confirm Sentinel rule fires. | 86-89 |
+| 0 | Prep | Deploy the template that spins up the lab resources & Sentinel workspace. |  |
+| 1 | Recon | `Invoke-AADIntReconAsOutsider` to enumerate domains & Tenant ID. |  |
+| 2 | Password Spray | `MSOLSpray -UserList users.txt -Password Winter2025!` via FireProx rotating IPs. | |
+| 3 | Consent Phish | Evilginx 2 config → capture OAuth code & exchange for **Access Token**. |  |
+| 4 | Enumeration | `roadrecon` dump → import into Neo4j, visualise in BloodHound. | |
+| 5 | Priv-Esc | Abuse Automation Account Run-As to mint new Service Principal secret. |  |
+| 6 | Key Vault loot | `az keyvault secret download` using stolen SP creds. |  |
+| 7 | Persistence | `ConvertTo-AADIntBackdoor -AppId …` to add hidden credential. |  |
+| 8 | Detection | Run Cloud Katana playbook **KV.SecretGet** and confirm Sentinel rule fires. | |
 
 ---
 
@@ -87,8 +87,6 @@ Below are direct links to the scenario walk‑throughs created for the Swiss Mi
 - **[SMSS Demo 1 – Reconnaissance](SMSS_Demo1.md)**
 - **[SMSS Demo 2 – Authenticated Enumeration](SMSS_Demo2.md)**
 - **[SMSS Demo 3 – Token theft from browser](SMSS_Demo3.md)**
-
-
 
 ---
 
