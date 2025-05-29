@@ -18,7 +18,7 @@
 
 ---
 
-## 🛠Walk‑through
+## Walk‑through
 
 ### 0  Prep — activate the Python virtual environment
 
