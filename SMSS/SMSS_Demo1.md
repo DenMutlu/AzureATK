@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Task
+## Task
 
 * Verify the organisation is on **Entra ID**  
 * Discover the **Tenant ID**  
@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Walk‑through
+## Walk‑through
 
 ### 1  Check Entra ID presence & tenant basics
 
