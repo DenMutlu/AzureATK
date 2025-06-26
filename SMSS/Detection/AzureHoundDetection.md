@@ -1,5 +1,7 @@
 # AzureHound Detection
 
+The MSFT Defender XDR portal has just released a Threat Analytics Report on the AzureHound Framework. AzureHound, part of the BloodHoundAD project on GitHub, is the official tool for collecting Azure data for BloodHound and BloodHound Enterprise. This command-line tool, which can be built from source, is utilized for both offensive and defensive security testing. The report includes two advanced hunting queries focused on AzureHound cmdlets and reconnaissance activities using network logs. Additionally, I have contributed another KQL query to GitHub for detecting AzureHound usage, which is not included in the Threat Analytics Report.
+
 ## Sentinel
 ```KQL
 let WhitelistedObjects = dynamic(["obj1", "obj2"]);
@@ -21,12 +23,12 @@ MicrosoftGraphActivityLogs
 | where UniqueRequests >= UniqueRequestThreshold and TotalResponseSize >= TotalResponseSizeTHreshold and UniqueResourceCount >= ResourceThreshold
 ```
 
-// Threat Hunting AzureHound Usage
+## Threat Hunting AzureHound Usage
 
-// Tool Profile: AzureHound framework
-// Link: https://security.microsoft.com/threatanalytics3/ec964e9b-f365-4dc3-b5b4-44f1532198b5/
-// The DefenderXDR portal has just released a Threat Analytics Report on the AzureHound Framework. AzureHound, part of the BloodHoundAD project on GitHub, is the official tool for collecting Azure data for BloodHound and BloodHound Enterprise. This command-line tool, which can be built from source, is utilized for both offensive and defensive security testing. The report includes two advanced hunting queries focused on AzureHound cmdlets and reconnaissance activities using network logs. Additionally, I have contributed another KQL query to GitHub for detecting AzureHound usage, which is not included in the Threat Analytics Report.
 
+Link: https://security.microsoft.com/threatanalytics3/ec964e9b-f365-4dc3-b5b4-44f1532198b5/
+
+```KQL
 MicrosoftGraphActivityLogs
 | where TimeGenerated > ago(90d)
 | where UserAgent has "azurehound"
@@ -34,5 +36,7 @@ MicrosoftGraphActivityLogs
 | join kind=leftouter IdentityInfo on $left.ObjectID == $right.AccountObjectId
 | where isnotempty(AccountUPN)
 | project-reorder TimeGenerated, AppId, IPAddress, AccountUPN, AccountCreationTime, AssignedRoles, ServicePrincipalId, RequestId, RequestMethod, ResponseStatusCode, RequestUri, ResponseSizeBytes, Roles
+```
+
 
 
