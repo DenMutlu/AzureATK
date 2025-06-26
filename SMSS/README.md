@@ -3,8 +3,8 @@
 > **Purpose**  
 > Hands-on lab for reproducing common Azure / Entra ID attack paths *and* testing your detections with Microsoft Defender XDR & Sentinel.  
 > **Audience:** Red-, Blue-, and budding Purple-teamers.  
-> **Status:** v1 : aligned with SMSS “Common Azure Attacks and Detection Strategies” talk (May/June 2025). KQL Detection & Defense strategies coming for August 2025
-> **Status:** v2 : aligned with SMSS “Common Azure Attacks and Detection Strategies” talk (May/June 2025). Azure Pentest Cheetsheet updated
+> **Status:** v1 : aligned with SMSS “Common Azure Attacks and Detection Strategies” talk (May/June 2025). KQL Detection & Defense strategies coming for August 2025  
+> **Status:** v2 : aligned with SMSS “Common Azure Attacks and Detection Strategies” talk (May/June 2025). Azure Pentest Cheetsheet updated  
 > **Status:** v2.1 : aligned with Azure Chalet Romandie T“Common Azure Attacks and Detection Strategies” talk (26 June 2025). details on Azure Labs, snippets fix, detection adds
 
 ---
