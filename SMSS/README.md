@@ -66,8 +66,15 @@
 | 8 | Detection | Run Cloud Katana playbook **KV.SecretGet** and confirm Sentinel rule fires. | |
 
 ---
+## 5  Azure Pentest Cheatsheet from the research
 
-## 5  Example of Detection quick-wins
+Below are direct link to the cheetsheet for the Azure Pentest:
+
+- **[Research process Cheatsheet and snippets](Azure_Pentest_CheatSheet.md)**
+
+---
+
+## 6  Example of Detection quick-wins
 
 1. **PrimaryRefreshToken usage outside Intune-managed device**  
    - Sentinel table: `SigninLogs` where `IncomingTokenType == "PrimaryRefreshToken"`.
@@ -80,7 +87,7 @@
 
 ---
 
-## 6  Swiss Microsoft Security Summit Demos
+## 7  Swiss Microsoft Security Summit Demos
 
 Below are direct links to the scenario walk‑throughs created for the Swiss Microsoft Security Summit (SMSS) course:
 
@@ -90,14 +97,14 @@ Below are direct links to the scenario walk‑throughs created for the Swiss Mi
 
 ---
 
-## 7  Credits & inspiration
+## 8  Credits & inspiration
 
 *Slides and process by **Deniz Mutlu** (Swiss Post Cybersecurity).*  
 Big thanks to: Andy Robbins, Nikhil Mittal, Thomas Naunheim, Fabian Bader, community maintainers of every linked tool — and especially Deniz’ wife for her late-night patience.
 
 ---
 
-## 8  License
+## 9 License
 
 This repository is released under the **MIT License**.  
 _All external tools keep their original licenses — consult each project before use._
