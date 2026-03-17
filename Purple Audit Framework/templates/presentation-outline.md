@@ -77,7 +77,7 @@ Introduce the assessment team and establish credibility. The sample report inclu
 - Appendix
 
 ## Goal of the slide
-Give the audience a roadmap. The sample report uses a clear agenda separating tenant discovery, detailed outcomes/recommendations, and next steps. fileciteturn5file0L3-L3
+Give the audience a roadmap. The sample report uses a clear agenda separating tenant discovery, detailed outcomes/recommendations, and next steps.
 
 ---
 
@@ -109,7 +109,7 @@ Give the audience a roadmap. The sample report uses a clear agenda separating te
 - date of report delivery / readout
 
 ## Goal of the slide
-Set legal and operational context clearly. The sample report documents audit date, review period, permissions granted, scope, and report presentation date. fileciteturn5file0L4-L5
+Set legal and operational context clearly. The sample report documents audit date, review period, permissions granted, scope, and report presentation date.
 
 ---
 
@@ -138,7 +138,7 @@ Set legal and operational context clearly. The sample report documents audit dat
 - selected tools and evidence collection methods
 
 ## Goal of the slide
-Explain how the audit was conducted and anchor it in recognizable standards. The sample report explicitly states its audit approach and cites CIS controls, Microsoft partner toolkit, internal tools, and Microsoft security baselines. fileciteturn5file0L5-L5
+Explain how the audit was conducted and anchor it in recognizable standards. The sample report explicitly states its audit approach and cites CIS controls, Microsoft partner toolkit, internal tools, and Microsoft security baselines.
 
 ---
 
@@ -159,11 +159,11 @@ This section is important because it creates context before findings.
 Provide enough environmental context so that the findings are understandable and defensible.
 
 ## Example discovery slides found in the sample report
-- customer Azure environment details such as tenant name, tenant ID, creation date, user counts, and synchronization status fileciteturn5file0L6-L6
-- registered DNS domains for the tenant fileciteturn5file0L7-L7
-- external tenants in use and guest population by external tenant fileciteturn5file0L8-L8
-- tenant users, groups, and privileged role population fileciteturn5file0L9-L9
-- discovered applications with counts of permissions and criticality notes fileciteturn5file0L10-L10
+- customer Azure environment details such as tenant name, tenant ID, creation date, user counts, and synchronization status 
+- registered DNS domains for the tenant 
+- external tenants in use and guest population by external tenant 
+- tenant users, groups, and privileged role population 
+- discovered applications with counts of permissions and criticality notes
 
 ---
 
@@ -195,7 +195,7 @@ Provide enough environmental context so that the findings are understandable and
 - Service account
 
 ## Why this matters
-The sample report uses a very concrete tenant overview slide to anchor the assessment in facts before moving to findings. fileciteturn5file0L6-L6
+The sample report uses a very concrete tenant overview slide to anchor the assessment in facts before moving to findings.
 
 ---
 
@@ -241,7 +241,7 @@ Table:
 - criticality notes
 
 ## Why this matters
-These discovery tables help support later findings around guest access, privileged roles, and app permissions. The sample report makes this environmental context explicit before moving to recommendations. fileciteturn5file0L7-L10
+These discovery tables help support later findings around guest access, privileged roles, and app permissions. The sample report makes this environmental context explicit before moving to recommendations.
 
 ---
 
@@ -281,7 +281,7 @@ Give executives a concise readout before deep detail.
 This is the most important part of the report.
 
 The sample report introduces this section explicitly as:
-**Outcomes, impacts and recommendations.** fileciteturn5file0L12-L12
+**Outcomes, impacts and recommendations.**
 
 That is the right model to keep.
 
@@ -297,7 +297,7 @@ Your previous reporting style already groups:
 - **Description**
 - **Finding**
 - **Impact / Recommendation**  
-as seen throughout the report findings tables. fileciteturn5file0L13-L26
+as seen throughout the report findings tables.
 
 The improvement here is to **separate Outcome, Impact, and Recommendation** so the report is easier to read and easier to track.
 
@@ -314,7 +314,7 @@ Examples:
 - AE-003
 - MD-008
 
-The sample report uses structured IDs across domains like AZ, AE, and MD. fileciteturn5file0L13-L26
+The sample report uses structured IDs across domains like AZ, AE, and MD.
 
 ## Description
 What control, expectation, or security principle is being reviewed.
@@ -346,7 +346,7 @@ Examples:
 - Mid Term
 - Long Term
 
-This matches the roadmap style in the sample report’s Next Steps Discussion tables. fileciteturn5file0L36-L37
+This matches the roadmap style in the sample report’s Next Steps Discussion tables.
 
 ---
 
@@ -376,7 +376,7 @@ Actionable remediation proposal.
 Optional screenshot, policy extract, log, or settings summary.
 
 ## Why this matters
-The sample report uses concise control IDs and practical descriptions, for example around MFA registration for devices, guest user review, Conditional Access configuration, or Sentinel deployment. fileciteturn5file0L19-L22
+The sample report uses concise control IDs and practical descriptions, for example around MFA registration for devices, guest user review, Conditional Access configuration, or Sentinel deployment.
 
 ---
 
@@ -392,7 +392,7 @@ Use this in the template as an example structure.
 | AE-003 | Logging / Detection | Use of Sentinel | Not enabled | High Risk | Centralized detection and alert correlation are limited | Deploy Sentinel for key data sources and phased onboarding | Mid Term |
 | MD-008 | Identity Detection | Identity protection / Defender for Identity | Not deployed | High Risk | Advanced identity threat detection is reduced | Plan deployment of Defender for Identity sensors and policies | Mid Term |
 
-These example themes are directly aligned with the types of findings in the report, including MFA, Conditional Access hygiene, guest review, Sentinel deployment, and identity protection recommendations. fileciteturn5file0L13-L26
+These example themes are directly aligned with the types of findings in the report, including MFA, Conditional Access hygiene, guest review, Sentinel deployment, and identity protection recommendations.
 
 ---
 
@@ -413,14 +413,14 @@ Examples from the report:
 - guest review
 - smart lockout
 - password protection
-- device registration MFA fileciteturn5file0L13-L19
+- device registration MFA
 
 ### AE — Audit / Exchange / Sentinel / M365 Governance
 Examples from the report:
 - diagnostic settings / activity logs
 - Sentinel
 - Exchange Online configuration review
-- SharePoint / OneDrive external access settings fileciteturn5file0L20-L22
+- SharePoint / OneDrive external access settings 
 
 ### MD — Defender / Exposure / Endpoint / Identity Detection
 Examples from the report:
@@ -432,7 +432,7 @@ Examples from the report:
 - exposure score
 - policy usage
 - identity protection
-- honeytoken accounts fileciteturn5file0L23-L26
+- honeytoken accounts
 
 This grouping makes the report easier to track, assign, and present.
 
@@ -452,7 +452,7 @@ To make the report more consistent, use a small set of outcome labels.
 - **Informational**
 
 ## Why this helps
-The original report often combines findings with recommendations directly in one cell. Splitting out an explicit outcome helps decision-makers quickly understand status across all controls. fileciteturn5file0L13-L26
+The original report often combines findings with recommendations directly in one cell. Splitting out an explicit outcome helps decision-makers quickly understand status across all controls. 
 
 ---
 
@@ -500,7 +500,7 @@ Examples:
 - Enable Sentinel for free and high-value data sources first.
 - Review privileged roles and ensure MFA is enabled for owner and contributor paths.
 
-These recommendation styles are consistent with the sample report, which often gives direct actions such as reviewing guest accounts, enabling Sentinel, or improving MFA governance. fileciteturn5file0L17-L19turn5file0L20-L26
+These recommendation styles are consistent with the sample report, which often gives direct actions such as reviewing guest accounts, enabling Sentinel, or improving MFA governance. 
 
 ---
 
@@ -508,7 +508,7 @@ These recommendation styles are consistent with the sample report, which often g
 
 This is essential.
 
-The sample report includes a **Next Steps Discussion** table with a clear priority column using labels such as Quick Win, Near Term, Mid Term, and Long Term. fileciteturn5file0L36-L37
+The sample report includes a **Next Steps Discussion** table with a clear priority column using labels such as Quick Win, Near Term, Mid Term, and Long Term. 
 
 You should absolutely keep this structure.
 
@@ -550,7 +550,7 @@ Use the roadmap table above, then add:
 - Mid Term
 - Long Term
 
-This matches the prioritization structure shown in the sample report’s next-step tables. fileciteturn5file0L36-L37
+This matches the prioritization structure shown in the sample report’s next-step tables.
 
 ---
 
@@ -569,11 +569,11 @@ What should be done next
 Product dashboard, portal view, or chart
 
 ## Example sections used in the sample report
-- Data Security and Insider Risk summary fileciteturn5file0L28-L29
-- Defender Exposure Management fileciteturn5file0L30-L30
-- Defender Attack Paths / lateral movements fileciteturn5file0L31-L31
-- Secure Score improvement / quick wins fileciteturn5file0L32-L32
-- Vulnerable devices review and patching strategy needs fileciteturn5file0L33-L34
+- Data Security and Insider Risk summary 
+- Defender Exposure Management 
+- Defender Attack Paths / lateral movements 
+- Secure Score improvement / quick wins
+- Vulnerable devices review and patching strategy needs 
 
 This is a strong structure when you want to add technical detail without losing readability.
 
@@ -583,7 +583,7 @@ This is a strong structure when you want to add technical detail without losing 
 
 This is a very strong practice and should stay in the template.
 
-The sample report includes a dedicated **Control Links** appendix mapping control IDs to documentation links and portal links. fileciteturn5file0L39-L39
+The sample report includes a dedicated **Control Links** appendix mapping control IDs to documentation links and portal links. 
 
 ## Suggested title
 **Appendix — Control Links**
@@ -603,7 +603,7 @@ The sample report includes a dedicated **Control Links** appendix mapping contro
 
 # 22. Appendix — Useful Links
 
-The sample report ends with a useful links slide containing reference resources such as M365 Maps, ORCA, Cloud Adoption Framework, Microsoft security benchmarks, Azure policy documentation, and access review documentation. fileciteturn5file0L40-L40
+The sample report ends with a useful links slide containing reference resources such as M365 Maps, ORCA, Cloud Adoption Framework, Microsoft security benchmarks, Azure policy documentation, and access review documentation. 
 
 ## Suggested title
 **Appendix — Useful Links**
@@ -627,8 +627,7 @@ The sample report ends with a useful links slide containing reference resources 
 - optional “questions” line
 - optional QR code to your framework / methodology if internal policy allows
 
-The sample report closes with a multilingual thank-you slide. fileciteturn5file0L41-L41
-
+The sample report closes with a multilingual thank-you slide. 
 ---
 
 # 24. Master Reporting Principles
@@ -644,8 +643,7 @@ Why:
 - easier status tracking
 - easier mapping to quick wins
 
-The sample report consistently uses IDs like AZ-001, AE-003, and MD-008 throughout the detailed findings and appendix. fileciteturn5file0L13-L26turn5file0L39-L39
-
+The sample report consistently uses IDs like AZ-001, AE-003, and MD-008 throughout the detailed findings and appendix. 
 ## Principle 2 — Separate finding, impact, and recommendation
 Do not mix everything in one paragraph.
 
@@ -691,7 +689,7 @@ Here is the final recommended presentation flow:
 15. Appendix — useful links
 16. Thank you
 
-This overall structure closely mirrors the sample report’s logical flow: agenda, disclaimer, methodology, tenant discovery, findings, detailed result review, next steps, appendix, and closing. fileciteturn5file0L3-L5turn5file0L12-L12turn5file0L27-L27turn5file0L35-L41
+This overall structure closely mirrors the sample report’s logical flow: agenda, disclaimer, methodology, tenant discovery, findings, detailed result review, next steps, appendix, and closing.
 
 ---
 
