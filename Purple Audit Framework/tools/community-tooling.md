@@ -7,7 +7,7 @@ They should support the methodology, not replace it.
 ## Core community tools often used
 
 ### PingCastle
-
+[Ping Castle](https://github.com/vletoux/pingcastle)
 **Purpose**
 - assess identity security posture in Active Directory and hybrid environments
 
@@ -26,7 +26,7 @@ They should support the methodology, not replace it.
 - should be interpreted, not followed blindly
 
 ### Monkey365
-
+[Monkey365](https://github.com/silverhack/monkey365)
 **Purpose**
 - collect and analyze security posture data across Microsoft 365 and Azure services
 
@@ -45,7 +45,7 @@ They should support the methodology, not replace it.
 - requires disciplined filtering and interpretation
 
 ### ScubaGear
-
+[ScubaGear](https://github.com/cisagov/ScubaGear) by CISA
 **Purpose**
 - assess Microsoft 365 configuration against security baselines
 
@@ -63,7 +63,7 @@ They should support the methodology, not replace it.
 - findings still need context
 
 ### ORCA
-
+[ORCA](https://github.com/cammurray/orca) (Office 365 Recommended Configuration Analyzer)
 **Purpose**
 - review Exchange Online and Defender for Office 365 security configuration
 
@@ -80,7 +80,7 @@ They should support the methodology, not replace it.
 - narrower scope than broader Azure and Entra audits
 
 ### AADInternals
-
+[AADInternal](https://github.com/Gerenios/AADInternals)
 **Purpose**
 - advanced Entra and Azure AD research and testing support
 
@@ -98,7 +98,7 @@ They should support the methodology, not replace it.
 - should be used carefully and selectively
 
 ### GraphSpy
-
+[GRAPHSPY](https://github.com/RedByte1337/GraphSpy)
 **Purpose**
 - token-centric Microsoft 365 / Entra research and review
 
