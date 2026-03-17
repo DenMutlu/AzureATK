@@ -1,4 +1,4 @@
-# Presentation Outline — Client Audit Report / Executive Deck
+# Presentation Outline | Client Audit Report / Executive Deck
 
 This template is designed for Azure and Entra ID security assessments that need to be:
 - executive-friendly
