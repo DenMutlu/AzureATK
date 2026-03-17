@@ -32,7 +32,7 @@ It is inspired by real customer reporting structure, including:
 **CONFIDENTIAL – LIMITED DIFFUSION**
 
 ## Goal of the slide
-Set the tone of the engagement and make the report immediately identifiable as a professional deliverable. The sample report opens with a branded cover, clear assessment title, and confidentiality marking. fileciteturn5file0L1-L1
+Set the tone of the engagement and make the report immediately identifiable as a professional deliverable. The sample report opens with a branded cover, clear assessment title, and confidentiality marking.
 
 ---
 
