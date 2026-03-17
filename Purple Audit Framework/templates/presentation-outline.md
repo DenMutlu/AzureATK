@@ -199,7 +199,7 @@ The sample report uses a very concrete tenant overview slide to anchor the asses
 
 ---
 
-# 8. Discovery Slide Template — Domains, Guests, Roles, and Apps
+# 8. Discovery Slide Template | Domains, Guests, Roles, and Apps
 
 ## Suggested slides
 ### DNS domains registered
@@ -579,7 +579,7 @@ This is a strong structure when you want to add technical detail without losing 
 
 ---
 
-# 21. Appendix — Control Links Table
+# 21. Appendix, Control Links Table
 
 This is a very strong practice and should stay in the template.
 
@@ -601,7 +601,7 @@ The sample report includes a dedicated **Control Links** appendix mapping contro
 
 ---
 
-# 22. Appendix — Useful Links
+# 22. Appendix, Useful Links
 
 The sample report ends with a useful links slide containing reference resources such as M365 Maps, ORCA, Cloud Adoption Framework, Microsoft security benchmarks, Azure policy documentation, and access review documentation. 
 
@@ -634,7 +634,7 @@ The sample report closes with a multilingual thank-you slide.
 
 Use these principles across the full presentation.
 
-## Principle 1 — Use IDs everywhere
+## Principle 1, Use IDs everywhere
 Every finding should have a stable ID.
 
 Why:
@@ -653,13 +653,13 @@ Use:
 - Impact
 - Recommendation
 
-## Principle 3 — Include a roadmap
+## Principle 3, Include a roadmap
 Always include a quick wins / roadmap table.
 
-## Principle 4 — Add remediation references
+## Principle 4, Add remediation references
 Include documentation and portal links in the appendix.
 
-## Principle 5 — Mix executive readability with technical credibility
+## Principle 5, Mix executive readability with technical credibility
 Use:
 - summary tables
 - short bullets
