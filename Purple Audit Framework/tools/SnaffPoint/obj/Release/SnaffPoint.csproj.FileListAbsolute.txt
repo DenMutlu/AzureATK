@@ -1,0 +1,7 @@
+C:\Users\DenizMutlu\Downloads\SnaffPoint-main\SnaffPoint-main\SnaffPoint\bin\Release\SnaffPoint.exe.config
+C:\Users\DenizMutlu\Downloads\SnaffPoint-main\SnaffPoint-main\SnaffPoint\bin\Release\SnaffPoint.exe
+C:\Users\DenizMutlu\Downloads\SnaffPoint-main\SnaffPoint-main\SnaffPoint\bin\Release\SnaffPoint.pdb
+C:\Users\DenizMutlu\Downloads\SnaffPoint-main\SnaffPoint-main\SnaffPoint\obj\Release\SnaffPoint.csproj.AssemblyReference.cache
+C:\Users\DenizMutlu\Downloads\SnaffPoint-main\SnaffPoint-main\SnaffPoint\obj\Release\SnaffPoint.csproj.CoreCompileInputs.cache
+C:\Users\DenizMutlu\Downloads\SnaffPoint-main\SnaffPoint-main\SnaffPoint\obj\Release\SnaffPoint.exe
+C:\Users\DenizMutlu\Downloads\SnaffPoint-main\SnaffPoint-main\SnaffPoint\obj\Release\SnaffPoint.pdb
