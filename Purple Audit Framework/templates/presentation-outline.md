@@ -45,7 +45,7 @@ Set the tone of the engagement and make the report immediately identifiable as a
 - Contact information if appropriate
 
 ## Goal of the slide
-Introduce the assessment team and establish credibility. The sample report includes consultant names, roles, and credentials on an early slide. fileciteturn5file0L2-L2
+Introduce the assessment team and establish credibility. The sample report includes consultant names, roles, and credentials on an early slide. 
 
 ---
 
